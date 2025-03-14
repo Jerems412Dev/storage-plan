@@ -16,7 +16,7 @@ function App() {
     { price: 180, storage: "5TB" }
   ];
 
-  const total = useRef(13);
+  const total = useRef(5);
 
   const [isSelect, setIsSelect] = useState(0);
   const handleSelect = (index: number) => {
